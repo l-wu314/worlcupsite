@@ -2,52 +2,28 @@
 <html>
     <head>
         <title>teams</title>
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/nav.css">
         <link rel="stylesheet" href="../css/teams.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="../js/modules/getFlagURL.js" type="module"></script>
+        <script src="../js/modules/generateSide.js" type="module"></script>
         <script src="../js/teams.js" type="module"></script>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="teams.html">Teams</a></li>
-                <li><a href="group.html">Group</a></li>
-                <li><a href="bracket.html">Bracket</a></li>
-            </ul>
-        </nav>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
         <div class="container">
-            <div class="menu">
-                <li onclick="javascript:country('Argentina');">Argentina</li>
-                <li onclick="javascript:country('Australia');">Australia</li>
-                <li onclick="javascript:country('Belgium');">Belgium</li>
-                <li onclick="javascript:country('Brazil');">Brazil</li>
-                <li onclick="javascript:country('Cameroon');">Cameroon</li>
-                <li onclick="javascript:country('Canada');">Canada</li>
-                <li onclick="javascript:country('Costa Rica');">Costa Rica</li>
-                <li onclick="javascript:country('Croatia');">Croatia</li>
-                <li onclick="javascript:country('Denmark');">Denmark</li>
-                <li onclick="javascript:country('Ecuador');">Ecuador</li>
-                <li onclick="javascript:country('England');">England</li>
-                <li onclick="javascript:country('France');">France</li>
-                <li onclick="javascript:country('Germany');">Germany</li>
-                <li onclick="javascript:country('Ghana');">Ghana</li>
-                <li onclick="javascript:country('Iran');">Iran</li>
-                <li onclick="javascript:country('Japan');">Japan</li>
-                <li onclick="javascript:country('Mexico');">Mexico</li>
-                <li onclick="javascript:country('Morocco');">Morocco</li>
-                <li onclick="javascript:country('Netherlands');">Netherlands</li>
-                <li onclick="javascript:country('Poland');">Poland</li>
-                <li onclick="javascript:country('Portugal');">Portugal</li>
-                <li onclick="javascript:country('Qatar');">Qatar</li>
-                <li onclick="javascript:country('Saudi Arabia');">Saudi Arabia</li>
-                <li onclick="javascript:country('Senegal');">Senegal</li>
-                <li onclick="javascript:country('Serbia');">Serbia</li>
-                <li onclick="javascript:country('South Korea');">South Korea</li>
-                <li onclick="javascript:country('Spain');">Spain</li>
-                <li onclick="javascript:country('Switzerland');">Switzerland</li>
-                <li onclick="javascript:country('Tunisia');">Tunisia</li>
-                <li onclick="javascript:country('United States');">United States</li>
-                <li onclick="javascript:country('Uruguay');">Uruguay</li>
-                <li onclick="javascript:country('Wales');">Wales</li>
+            <div class="menu" id="menu">
             </div>
             <div class="main">
                 <h2 id="cname"></h2>

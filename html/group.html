@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/group.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="../js/modules/getFlagURL.js" type="module"></script>
+        <script src="../js/modules/generateSide.js" type="module"></script>
+        <script src="../js/group.js" type="module"></script>
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+        <div class="container">
+            <div class="menu" id="menu">
+            </div>
+            <div class="main">
+                <h2 id="cname"></h2>
+            </div>
+        </div>
+    </body>
+</html>
