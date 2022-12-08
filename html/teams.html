@@ -4,6 +4,7 @@
         <title>teams</title>
         <link rel="stylesheet" href="../css/sidebar.css">
         <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/teams.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="../js/modules/getFlagURL.js" type="module"></script>
@@ -26,10 +27,22 @@
             <div class="menu" id="menu">
             </div>
             <div class="main">
-                <h2 id="cname"></h2>
+                <h2 id="cname">Select a team for more information</h2>
                 <img id="flag" src="">
                 <p id="description"></p>
+                <h2 id="rosterHead"></h2>
+                <p id="coach"></p>
+                <table id="roster"></table>
             </div>
         </div>
+        <div id="footer-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+        $("#footer-placeholder").load("footer.html");
+        });
+        </script>
     </body>
 </html>

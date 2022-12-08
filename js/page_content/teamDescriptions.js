@@ -32,4 +32,42 @@ const teamDescriptions = {
     "Uruguay": "Adipisci quaerat quiquia velit eius. Modi est neque numquam quaerat porro. Dolore quaerat ipsum eius eius dolor porro quisquam. Voluptatem eius non eius dolorem dolore tempora labore. Quaerat voluptatem ut ipsum sed adipisci labore est. Numquam dolor etincidunt adipisci quaerat amet tempora. Aliquam quisquam labore porro porro amet porro neque.",
     "Wales": "Dolore est dolore numquam ut. Modi quiquia eius voluptatem amet quaerat est. Adipisci quiquia numquam dolor voluptatem quaerat. Sit neque non aliquam etincidunt non magnam. Magnam aliquam etincidunt velit etincidunt dolor. Ut labore quaerat est. Quisquam aliquam velit non ut quiquia. Ipsum magnam velit quaerat. Modi consectetur est est dolore sit. Quisquam neque numquam dolore consectetur non.",
 }
-export default teamDescriptions;
+
+const coaches = {
+    "Argentina": "Lionel Scaloni",
+    "Australia": "Graham Arnold",
+    "Belgium": "Roberto Martínez",
+    "Brazil": "Adenor Leonardo Bacchi",
+    "Cameroon": "Rigobert Song",
+    "Canada": "John Herdman",
+    "Costa Rica": "Luis Fernando Suárez",
+    "Croatia": "Zlatko Dalić",
+    "Denmark": "Kasper Hjulmand",
+    "Ecuador": "Gustavo Alfaro",
+    "England": "Gareth Southgate",
+    "France": "Didier Deschamps",
+    "Germany": "Hansi Flick",
+    "Ghana": "Otto Addo",
+    "Iran": "Carlos Queiroz",
+    "Japan": "Hakime Moriyasu",
+    "Mexico": "Gerardo Martino",
+    "Morocco": "Walid Regragui",
+    "Netherlands": "Louis van Gaal",
+    "Poland": "Czesław Michniewicz",
+    "Portugal": "Fernando Santos",
+    "Qatar": "Félix Sánchez",
+    "Saudi Arabia": "Hervé Renard",
+    "Senegal": "Aliou Cissé",
+    "Serbia": "Dragan Stojković",
+    "South Korea": "Paulo Bento",
+    "Spain": "Luis Enrique",
+    "Switzerland": "Murat Yakin",
+    "Tunisia": "Jalel Kadri",
+    "United States": "Gregg Berhalter",
+    "Uruguay": "Diego Alonso",
+    "Wales": "Rob Page",
+}
+
+const rosters = {}
+
+export {teamDescriptions, coaches, rosters};

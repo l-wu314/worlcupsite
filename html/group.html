@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="../css/sidebar.css">
         <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/group.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="../js/modules/getFlagURL.js" type="module"></script>
@@ -24,11 +25,22 @@
         <div class="container">
             <div class="menu" id="menu">
             </div>
-            <div class="main">
-                <h2 id="cname"></h2>
-                <div class="container" id="main_table">
+            <div class="main container vertical">
+                <h2 id="cname">Select a group for more imformation</h2>
+                <div class="" id="main_table">
+                </div>
+                <div class="container" id="matchesContainer">
                 </div>
             </div>
         </div>
+        <div id="footer-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+        $("#footer-placeholder").load("footer.html");
+        });
+        </script>
     </body>
 </html>

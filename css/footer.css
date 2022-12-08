@@ -1,0 +1,10 @@
+.footer {
+    background-color: #381BE0;
+    color:#9FA7FF;
+    padding: 30px;
+    text-align: center;
+  }
+  .footer-navigation {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
