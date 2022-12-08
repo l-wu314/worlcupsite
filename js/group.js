@@ -61,6 +61,10 @@ window.displayItem = function(name) {
                 img.src = getFlagURL(list[i][j]);
                 let span2 = document.createElement("span")
                 span2.textContent = list[i][j];
+                span2.classList.add("hover");
+                span2.onclick = function() {
+                    let win = window.open('teams.html?country='+list[i][j], '_self');
+                }
                 td.appendChild(span);
                 td.appendChild(img);
                 td.appendChild(span2);
@@ -102,16 +106,23 @@ const generateMatch = (data, n) => {
     let matchbox = document.createElement("div");
     matchbox.classList.add("matchbox");
     matchbox.classList.add("container");
-    matchbox.classList.add("vertical");
+    matchbox.classList.add("reverse");
     let span1 = document.createElement("span");
     span1.textContent = data[2*n];
+    span1.onclick = function() {
+        let win = window.open('teams.html?country='+data[2*n], '_self');
+    }
+    span1.classList.add("hover")
     let img = document.createElement("img");
     img.src = getFlagURL(data[2*n]);
+    img.onclick = function() {
+        let win = window.open('teams.html?country='+data[2*n], '_self');
+    }
     let span = document.createElement("span");
     span.class = "score";
     span.textContent = data[2*n+1];
-    matchbox.appendChild(span1);
-    matchbox.appendChild(img);
     matchbox.appendChild(span);
+    matchbox.appendChild(img);
+    matchbox.appendChild(span1);
     return matchbox
 }

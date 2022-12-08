@@ -17,6 +17,29 @@
 
 .menu li:hover {
     color: rgb(203, 41, 41);
+    cursor: pointer;
     font-size: 28px;
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+
+.hover:hover {
+    color: rgb(203, 41, 41);
+    cursor: pointer;
+}
+
+.matchbox img:hover ~ span {
+    color: rgb(203, 41, 41);
+}
+
+.matchbox img:hover {
+    cursor: pointer;
+}
+
+.hover {
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
 }
 
