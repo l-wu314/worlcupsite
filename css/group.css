@@ -58,6 +58,8 @@ table span {
 
 .matchbox img {
     width: 40%;
+    min-width: 30px;
+    max-width: 200px;
 }
 
 .matchbox span {
@@ -66,4 +68,10 @@ table span {
 
 .vertical {
     flex-direction: column;
+}
+
+.menu li:hover {
+    color: rgb(227, 56, 56);
+    cursor: pointer;
+    font-size: 28px;
 }

@@ -16,6 +16,13 @@ const groupData = {
 
 const groupMatches = {
     "Group A":[["Qatar", "0", "Ecuador", "2"],["Senegal", "0", "Netherlands", "2"],["Qatar", "1", "Senegal", "3"],["Netherlands", "1", "Ecuador", "1"],["Ecuador", "1", "Senegal", "2"],["Netherlands", "2", "Qatar", "0"]],
+    "Group B":[["England", "6", "Iran", "2"], ["United States", "1", "Wales", "1"], ["Wales", "0", "Iran", "2"], ["England", "0", "United States", "0"], ["Wales", "0", "England", "3"], ["Iran", "0", "United States", "1"]],
+    "Group C":[["Argentina", "1", "Saudi Arabia", "2"], ["Mexico", "0", "Poland", "0"], ["Poland", "2", "Saudi Arabia", "0"], ["Argentina", "2", "Mexico", "0"], ["Poland", "0", "Argentina", "2"], ["Saudi Arabia", "1", "Mexico", "2"]],
+    "Group D":[["Denmark", "0", "Tunisia", "0"], ["France", "4", "Australia", "1"], ["Tunisia", "0", "Australia", "1"], ["France", "2", "Denmark", "1"], ["Australia", "1", "Denmark", "0"], ["Tunisia", "1", "France", "0"]],
+    "Group E":[["Germany", "1", "Japan", "2"], ["Spain", "7", "Costa Rica", "0"], ["Japan", "0", "Costa Rica", "1"], ["Spain", "1", "Germany", "1"], ["Japan", "2", "Spain", "1"], ["Costa Rica", "2", "Germany", "4"]],
+    "Group F":[["Morocco", "0", "Croatia", "0"], ["Belgium", "1", "Canada", "0"], ["Belgium", "0", "Morocco", "2"], ["Croatia", "4", "Canada", "1"], ["Croatia", "0", "Belgium", "0"], ["Canada", "1", "Morocco", "2"]],
+    "Group G":[["Switzerland", "1", "Cameroon", "0"], ["Brazil", "2", "Serbia", "0"], ["Cameroon", "3", "Serbia", "3"], ["Brazil", "1", "Switzerland", "0"], ["Serbia", "2", "Switzerland", "3"], ["Cameroon", "1", "Brazil", "0"]],
+    "Group H":[["Uruguay", "0", "South Korea", "0"], ["Portugal", "3", "Ghana", "2"], ["South Korea", "2", "Ghana", "3"], ["Portugal", "2", "Uruguay", "0"], ["Ghana", "0", "Uruguay", "2"], ["South Korea", "2", "Portugal", "1"]],
 }
 
 generateSide(groups);

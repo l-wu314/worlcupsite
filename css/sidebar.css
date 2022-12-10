@@ -4,8 +4,8 @@
 
 .menu {
     width: 20%;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .menu li {
@@ -16,7 +16,7 @@
 }
 
 .menu li:hover {
-    color: rgb(203, 41, 41);
+    color: rgb(234, 176, 110);
     cursor: pointer;
     font-size: 28px;
 }

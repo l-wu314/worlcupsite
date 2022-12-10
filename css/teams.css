@@ -4,10 +4,13 @@ img {
 
 .menu {
     width: 15%;
+    background-color: #8B2D39;
+    color:#D69854;
 }
 
 .main {
     width: 100%;
     padding: 20px;
-    background-color: rgb(236, 236, 236)
+    background-color: #DDAF61;
+    color: #8B2D39;
 }
